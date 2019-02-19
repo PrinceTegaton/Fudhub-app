@@ -1,0 +1,64 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.item{}
+
+.item-img {
+  max-height: 170px !important;
+  border-bottom: 4px solid red;
+}
+
+.item-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.item-amount {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.item-desc {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.cart-sidebar {}
+
+.cart-sidebar .cart-item-total {
+  font-size: 13px;
+}
+
+.cart-sidebar .badge {
+  position: absolute;
+  top: 35%;
+  right: 10px;
+}
+
+.cart-sidebar a {
+  font-size: 12px;
+  color: maroon;
+  font-style: italic;
+}
+
+.cart-sidebar .list-group-item:last-child {
+  border: none;
+  border-top: 2px solid gainsboro;
+  border-radius: 0;
+  padding-left: 5px; 
+}
